@@ -57,7 +57,7 @@ int main()
 
 
     disable_servos();
-    return 0;
+ 
     ao();
-
+    return 0;
 }
