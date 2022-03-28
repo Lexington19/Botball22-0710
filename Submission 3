@@ -10,7 +10,7 @@ int main()
     int up = 300;
     enable_servos();
     set_servo_position(arm,up);
-    msleep(1000);
+    msleep(500);
     while (get_servo_position(arm) < bluering)
     {
         set_servo_position(arm,up);
@@ -27,7 +27,7 @@ int main()
     }
     
     set_servo_position(arm,up);
-    msleep(1000);
+    msleep(500);
     
     
     return 0;
